@@ -152,7 +152,7 @@ class Type:
                     return
 
                 temp -= 1
-                sleep(0.1)
+                sleep(1)
                 self.master.update()
         except RuntimeError:
             print('MASTER TYPING HAS BEEN CLOSED')
